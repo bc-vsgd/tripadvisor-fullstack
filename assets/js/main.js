@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     document.querySelector(".modal").classList.toggle("hidden");
     const response = await axios.post(`${serverUrl}/form`, user);
+    console.log(`${serverUrl}/form`);
     console.log(response.data);
   });
 });

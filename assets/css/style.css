@@ -36,6 +36,11 @@ h3 {
   font-size: 24px;
   margin-bottom: 25px;
 }
+input,
+textarea {
+  font-family: TS-Reg, sans-serif;
+  font-size: 16px;
+}
 .hidden {
   display: none;
 }
@@ -310,9 +315,9 @@ footer a {
 }
 .modal textarea {
   height: 115px;
-  font-family: TS-Reg, sans-serif;
+  /* font-family: TS-Reg, sans-serif; */
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 .modal button {
   width: 200px;
