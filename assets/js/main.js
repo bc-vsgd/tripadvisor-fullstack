@@ -1,3 +1,6 @@
+// const serverUrl = "http://localhost:3000"
+const serverUrl = "http://localhost:3000";
+
 document.addEventListener("DOMContentLoaded", () => {
   // console.log("Listener doc");
 
@@ -17,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       message: document.querySelector("#message").value,
     };
     document.querySelector(".modal").classList.toggle("hidden");
-    const response = await axios.post("http://localhost:3000/form", user);
+    const response = await axios.post(`${serverUrl}/form`, user);
     console.log(response.data);
   });
 });
