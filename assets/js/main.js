@@ -1,5 +1,5 @@
-// const serverUrl = "http://localhost:3000"
-const serverUrl = "http://localhost:3000";
+const serverUrl = "https://site--tripadvisor-backend--r6xgg7xm7vcz.code.run";
+// const serverUrl = "http://localhost:3000";
 
 document.addEventListener("DOMContentLoaded", () => {
   // console.log("Listener doc");
