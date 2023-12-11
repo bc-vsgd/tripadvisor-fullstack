@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripadvisor - Cours 04</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f2122ca847.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header>
+      <div class="container">
+        <div class="col-lf">
+          <i class="icon-menu_bars"></i>
+
+          <div class="icon-ollie-div">
+            <i class="icon-ta_ollie"></i>
+          </div>
+          <img
+            src="./assets/img/Tripadvisor_logo.svg"
+            alt="Tripadvisor logo"
+            class="img-lf"
+          />
+        </div>
+        <div class="div-rg">
+          <nav class="nav-rg">
+            <div>
+              <span>Découvrir</span>
+            </div>
+            <div>
+              <span><a href="#">Voyages</a></span>
+            </div>
+            <div>
+              <span>Avis</span>
+            </div>
+          </nav>
+          <button id="connection-button">Connectez-vous</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <!-- <main class="container"> -->
+    <main>
+      <!-- FIRST DIV -->
+
+      <!-- <div class="first-div container"> -->
+      <div class="first-div">
+        <div class="container">
+          <h1><span>Explorez</span> Paris</h1>
+          <p>
+            Les revenus influencent le choix des expériences présentées sur
+            cette page : <a href="#">en savoir plus</a>.
+          </p>
+        </div>
+        <div>
+          <nav class="first-div-nav container">
+            <div>
+              <span>Hôtels</span>
+              <i class="icon-hotels"></i>
+            </div>
+            <div>
+              <span>Activités</span>
+              <i class="icon-attractions"></i>
+            </div>
+
+            <div>
+              <span>Locations de vacances</span>
+              <i class="icon-vacation_rentals"></i>
+            </div>
+            <div>
+              <span>Restaurants</span>
+              <i class="icon-restaurants"></i>
+            </div>
+            <div>
+              <span>Forums de voyage</span>
+              <i class="icon-forums"></i>
+            </div>
+            <div>
+              <span>Vols</span>
+
+              <i class="icon-flights"></i>
+            </div>
+            <div>
+              <span>Croisières</span>
+              <i class="icon-cruises"></i>
+            </div>
+            <div>
+              <span>Plus</span>
+              <i class="icon-more_horizontal"></i>
+            </div>
+          </nav>
+        </div>
+        <div class="div-img">
+          <div class="div-pics">
+            <img src="./assets/img/caption.jpg" alt="Paris" />
+            <div>
+              <img src="./assets/img/caption (1).jpg" alt="Paris" />
+              <img src="./assets/img/caption (2).jpg" alt="Paris" />
+            </div>
+          </div>
+          <img src="./assets/img/TC_LL.svg" alt="Logo" />
+          <button>
+            <i class="icon-photo"></i>
+            <span>Toutes les photos</span>
+          </button>
+        </div>
+        <div class="div-geo">
+          <nav class="nav-geo">
+            <span>Europe</span>
+            <i class="icon-single_chevron_right"></i>
+            <span>France</span>
+            <i class="icon-single_chevron_right"></i>
+            <span>Ile-de-France</span>
+            <i class="icon-single_chevron_right"></i>
+            <span>Paris</span>
+            <i class="icon-caret_down"></i>
+          </nav>
+          <span>Visiter : Paris</span>
+        </div>
+      </div>
+
+      <!-- FIRST SECTION -->
+      <section class="first-section container">
+        <!-- <div>
+
+        </div> -->
+        <h2>A propos de Paris</h2>
+        <p>
+          On dit que Paris est la plus belle ville du monde. Et elle a quelque
+          chose de magique ! Comment résister aux charmes des immeubles
+          haussmanniens en pierre et fer forgé, des trottoirs parsemés de
+          bistrot pittoresques et des rives de la Seine ? Mais Paris, c’est
+          aussi la cuisine : les fins gourmets apprécieront les classiques
+          croissants dorés au beurre et les plats traditionnels comme le coq au
+          vin. Mais les nombreux restaurants de cuisine internationale inventive
+          font aujourd’hui la part belle à la nouvelle scène culinaire française
+          qui mélange les saveurs (les falafels de la rue des Rosiers sont tout
+          simplement à tomber). Laissez-vous aller à la flânerie dans les
+          ruelles cachées, dans les musées renommés et les boutiques
+          spécialisées. À la nuit tombée, rendez-vous sur le Champ-de-Mars pour
+          profiter d'une vue imprenable sur les illuminations de la tour Eiffel.
+        </p>
+      </section>
+
+      <!-- SECTION: PARIS: LES IMMANQUABLES -->
+
+      <section class="container">
+        <h2>Paris : les immanquables</h2>
+        <section class="sub-section">
+          <!-- DIV 1 -->
+
+          <div class="div-1">
+            <h3>Que faire</h3>
+            <p>
+              Les endroits emblématiques et les expériences incontournables qui
+              caractérisent cette ville
+            </p>
+            <a href="#">Tout afficher</a>
+          </div>
+
+          <!-- DIV 2 -->
+
+          <div class="div-2">
+            <!--  -->
+            <!-- THUMBNAIL DIV -->
+
+            <div class="thumbnail-div">
+              <!--  -->
+              <!-- THUMBNAIL 1: rectangle avec img, texte, rating, p -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img src="./assets/img/eiffeltoren.jpg" alt="Tour Eiffel" />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>La Tour Eiffel</span>
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>142442</span>
+                </div>
+                <p>
+                  Tours et plateformes d'observation, Monuments et points
+                  d'intérêt
+                </p>
+              </div>
+
+              <!-- THUMBNAIL 2 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img
+                    src="./assets/img/cour-napoleon-et-pyramide.jpg"
+                    alt="Louvre"
+                  />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Musée du Louvre</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>102771</span>
+                </div>
+                <p>Bâtiments architecturaux, Musées d'art</p>
+              </div>
+
+              <!-- THUMBNAIL 3 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img
+                    src="./assets/img/arc-de-triomphe-at-night.jpg"
+                    alt="Arc de Triomphe"
+                  />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Arc de Triomphe</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>45989</span>
+                </div>
+                <p>Bâtiments architecturaux, Sites historiques</p>
+              </div>
+
+              <!-- THUMBNAIL 5 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img
+                    src="./assets/img/vue-de-la-cour-d-honneur.jpg"
+                    alt="Musée Rodin"
+                  />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Musée Rodin Paris VII</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>12705</span>
+                </div>
+                <p>Musées spécialisés</p>
+              </div>
+
+              <!-- THUMBNAIL 6 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img src="./assets/img/the-bookstore.jpg" alt="Librairie" />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Librairie Shakespeare and Company Paris V</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>4010</span>
+                </div>
+                <p>Bibliothèques, Grands magasins</p>
+              </div>
+
+              <!-- THUMBNAIL 6 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img
+                    src="./assets/img/leider-durch-das-feuer.jpg"
+                    alt="Notre-Dame"
+                  />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Cathédrale Notre-Dame de Paris</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>71638</span>
+                </div>
+                <p>Bâtiments architecturaux, Sites historiques</p>
+              </div>
+
+              <!-- THUMBNAIL 7 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img
+                    src="./assets/img/20180601-122841-largejpg.jpg"
+                    alt="Musée d'Orsay"
+                  />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Musée d'Orsay</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>67172</span>
+                </div>
+                <p>Musées d'art</p>
+              </div>
+
+              <!-- THUMBNAIL 8 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img
+                    src="./assets/img/marche-vernaison-maison.jpg"
+                    alt="Marché aux Puces"
+                  />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Marché aux Puces de Saint-Ouen</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_empty"></i>
+                  </span>
+                  <span>889</span>
+                </div>
+                <p>Antiquaires, Marchés aux puces et marchés de rue</p>
+              </div>
+
+              <!-- THUMBNAIL 9 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img
+                    src="./assets/img/basilica-del-sagrado.jpg"
+                    alt="Sacré-Coeur"
+                  />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Basilique du Sacré-Coeur de Montmartre</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>39635</span>
+                </div>
+                <p>Eglises et cathédrales</p>
+              </div>
+
+              <!-- THUMBNAIL 10 -->
+
+              <div class="thumbnail">
+                <div class="thumbnail-img">
+                  <img
+                    src="./assets/img/jardin-des-tuileries.jpg"
+                    alt="Jardin des Tuileries"
+                  />
+                  <i class="icon-heart"></i>
+                  <img src="./assets/img/TC_LL.svg" alt="Logo" />
+                </div>
+                <span>Jardin des Tuileries Paris I</span>
+
+                <div>
+                  <span>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_full"></i>
+                    <i class="icon-bubble_rating_half"></i>
+                  </span>
+                  <span>7699</span>
+                </div>
+                <p>Jardins</p>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div>
+        <img src="./assets/img/Tripadvisor_logoset_solid_green.svg" alt="" />
+        <span
+          >Made at
+          <a
+            href="https://www.lereacteur.io/?utm_source=google&utm_medium=cpc&utm_campaign=FR-SN-Brand&utm_term=le%20reacteur&utm_content=377851505166&gad_source=1&gclid=EAIaIQobChMIy4Ok3JDuggMV8kNBAh1M4AEBEAAYASAAEgLdafD_BwE"
+            target="_blank"
+            >Le Reacteur</a
+          >
+          by
+          <a href="https://github.com/bc-vsgd" target="_blank"
+            >Benoît Charles</a
+          >
+          - 2023</span
+        >
+      </div>
+    </footer>
+
+    <form class="modal hidden">
+      <div>
+        <i class="icon-times"></i>
+        <span>Formulaire de contact</span>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          value=""
+          placeholder="Prénom"
+        />
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          value=""
+          placeholder="Nom"
+        />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          value=""
+          placeholder="Email"
+        />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Écrivez ici votre message..."
+        ></textarea>
+        <button type="submit" id="submit-button">Envoyer le formulaire</button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+@media (max-width: 768px) {
+  /* ---------- COMMON RULES ---------- */
+  /* ---------- COMMON RULES ---------- */
+  /* ---------- COMMON RULES ---------- */
+
+  .container {
+    margin: 0 25px;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* ---------- HEADER ---------- */
+  /* ---------- HEADER ---------- */
+  /* ---------- HEADER ---------- */
+
+  header {
+    margin-bottom: 30px;
+  }
+  header .col-lf {
+    width: 55px;
+  }
+  header .icon-ollie-div {
+    height: 30px;
+    width: 30px;
+    background-color: #35e0a1;
+    border-radius: 50%;
+  }
+  header .icon-ta_ollie {
+    font-size: 30px;
+    padding-bottom: -10px;
+  }
+  header img {
+    display: none;
+  }
+  header .div-rg nav {
+    display: none;
+  }
+  header .div-rg button {
+    display: none;
+  }
+
+  /* ---------- MAIN ---------- */
+  /* ---------- MAIN ---------- */
+  /* ---------- MAIN ---------- */
+
+  /* ----- FIRST-DIV: NAV ----- */
+
+  .first-div-nav {
+    gap: 5px;
+    overflow-x: scroll;
+    margin-bottom: 15px;
+  }
+  .first-div-nav::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  .first-div-nav div {
+    min-width: 150px;
+    flex-shrink: 0;
+    padding: 10px 15px;
+    align-items: center;
+  }
+
+  /* ----- FIRST-DIV: IMG, GEO ----- */
+
+  .first-div .div-img {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .first-div .div-pics > img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+  }
+  .first-div .div-img > img {
+    height: 45px;
+    width: 30px;
+    background-color: #f1b202;
+    border-radius: 20px 20px 5px 5px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+  }
+  .first-div .div-pics > div {
+    display: none;
+  }
+  .first-div .div-geo {
+    display: none;
+  }
+
+  /* ----- FIRST SECTION ----- */
+
+  .first-section p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  /* SUB-SECTION */
+
+  .sub-section {
+    margin-bottom: 70px;
+  }
+  .sub-section .div-1 {
+    margin-bottom: 30px;
+  }
+  .thumbnail-div {
+    gap: 10px;
+    overflow-x: scroll;
+  }
+  .thumbnail {
+    flex-shrink: 0;
+    width: 80vw;
+  }
+  .thumbnail-img > img:first-of-type {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
