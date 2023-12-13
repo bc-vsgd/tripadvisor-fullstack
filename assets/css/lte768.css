@@ -118,4 +118,22 @@
     object-fit: cover;
     border-radius: 10px;
   }
+
+  /* ----- BANNER ----- */
+  /* ----- BANNER ----- */
+
+  .banner {
+    width: 90vw;
+    left: 50%;
+    margin-left: -45vw;
+    font-size: 14px;
+    bottom: 15px;
+    padding: 5px 10px 5px 10px;
+  }
+  .banner img {
+    width: 30px;
+  }
+  .banner p {
+    line-height: 17px;
+  }
 }

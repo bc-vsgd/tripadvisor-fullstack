@@ -458,40 +458,60 @@
       </div>
     </footer>
 
-    <form class="modal hidden">
-      <div>
-        <i class="icon-times"></i>
-        <span>Formulaire de contact</span>
-        <input
-          type="text"
-          name="firstname"
-          id="firstname"
-          value=""
-          placeholder="Prénom"
-        />
-        <input
-          type="text"
-          name="lastname"
-          id="lastname"
-          value=""
-          placeholder="Nom"
-        />
-        <input
-          type="text"
-          name="email"
-          id="email"
-          value=""
-          placeholder="Email"
-        />
-        <textarea
-          name="message"
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="Écrivez ici votre message..."
-        ></textarea>
-        <button type="submit" id="submit-button">Envoyer le formulaire</button>
+    <!-- MODAL: CONNECTION -->
+    <div class="modal-div hidden">
+      <!-- <div> -->
+      <div class="modal">
+        <div class="form-div">
+          <i class="icon-times"></i>
+          <span>Formulaire de contact</span>
+
+          <form>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              value=""
+              placeholder="Prénom"
+            />
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              value=""
+              placeholder="Nom"
+            />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              value=""
+              placeholder="Email"
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Écrivez ici votre message..."
+            ></textarea>
+            <button type="submit" id="submit-button">
+              Envoyer le formulaire
+            </button>
+          </form>
+        </div>
       </div>
-    </form>
+    </div>
+
+    <!-- BANNER -->
+    <div class="banner">
+      <img src="./assets/img/Logo_Reacteur.avif" alt="Logo Reacteur" />
+      <p>
+        Cette page est le résultat d'un travail réalisé par
+        <a href="https://github.com/bc-vsgd" target="_blank">Benoît Charles</a>
+        dans le cadre d'une formation dispensée par
+        <a href="https://www.lereacteur.io/" target="_blank">Le Reacteur</a>
+      </p>
+    </div>
   </body>
 </html>

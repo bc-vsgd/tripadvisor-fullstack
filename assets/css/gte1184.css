@@ -66,4 +66,13 @@
   .thumbnail {
     width: 32%;
   }
+
+  /* ----- BANNER ----- */
+  /* ----- BANNER ----- */
+
+  .banner {
+    width: 1134px;
+    margin-left: -562px;
+    padding: 10px 30px;
+  }
 }
