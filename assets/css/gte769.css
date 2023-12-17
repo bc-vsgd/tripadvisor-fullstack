@@ -10,6 +10,12 @@
     font-size: 54px;
     margin-bottom: 20px;
   }
+  .hidden-sm {
+    display: none;
+  }
+  .visible-sm {
+    display: flex;
+  }
 
   /* ---------- HEADER ---------- */
   /* ---------- HEADER ---------- */
@@ -26,17 +32,23 @@
   header .col-lf {
     width: 235px;
   }
-  header .icon-ollie-div {
-    display: none;
-  }
   header img {
     height: 40px;
   }
-  header .div-rg nav {
-    display: none;
+  header .div-rg {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
   }
-  header .div-rg button {
-    display: inline;
+  header .div-rg nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+  }
+  header .div-rg nav i {
+    font-size: 22px;
+    padding: 5px;
   }
 
   /* ---------- MAIN ---------- */

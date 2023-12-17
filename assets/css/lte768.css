@@ -10,6 +10,9 @@
     font-size: 24px;
     margin-bottom: 20px;
   }
+  .hidden-xs {
+    display: none;
+  }
 
   /* ---------- HEADER ---------- */
   /* ---------- HEADER ---------- */
@@ -19,26 +22,15 @@
     margin-bottom: 30px;
   }
   header .col-lf {
-    width: 55px;
-  }
-  header .icon-ollie-div {
-    height: 30px;
-    width: 30px;
-    background-color: #35e0a1;
-    border-radius: 50%;
-  }
-  header .icon-ta_ollie {
-    font-size: 30px;
-    padding-bottom: -10px;
+    display: flex;
+    justify-content: space-between;
   }
   header img {
-    display: none;
+    height: 28px;
   }
-  header .div-rg nav {
-    display: none;
-  }
-  header .div-rg button {
-    display: none;
+  header .icon-menu_bars,
+  header .icon-search {
+    font-size: 20px;
   }
 
   /* ---------- MAIN ---------- */

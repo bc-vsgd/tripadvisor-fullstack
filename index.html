@@ -18,30 +18,32 @@
     <header>
       <div class="container">
         <div class="col-lf">
-          <i class="icon-menu_bars"></i>
-
-          <div class="icon-ollie-div">
-            <i class="icon-ta_ollie"></i>
-          </div>
+          <i class="icon-menu_bars hidden-sm"></i>
           <img
             src="./assets/img/Tripadvisor_logo.svg"
             alt="Tripadvisor logo"
             class="img-lf"
           />
+          <i class="icon-search hidden-sm"></i>
         </div>
-        <div class="div-rg">
+        <div class="div-rg hidden-xs visible-sm">
           <nav class="nav-rg">
             <div>
-              <span>Découvrir</span>
+              <i class="icon-pencil"></i>
+              <span class="hidden-sm visible-md">Avis</span>
             </div>
             <div>
-              <span><a href="#">Voyages</a></span>
+              <i class="icon-heart"></i>
+              <span class="hidden-sm visible-md">Voyages</span>
             </div>
             <div>
-              <span>Avis</span>
+              <i class="icon-notification_bell"></i>
+              <span class="hidden-sm visible-md">Alertes</span>
             </div>
           </nav>
-          <button id="connection-button">Connectez-vous</button>
+          <button id="connection-button" class="hidden-xs visible-sm">
+            Connectez-vous
+          </button>
         </div>
       </div>
     </header>

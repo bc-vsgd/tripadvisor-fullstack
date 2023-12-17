@@ -6,6 +6,9 @@
   .container {
     margin: 0 25px;
   }
+  .visible-md {
+    display: inline;
+  }
 
   /* ---------- HEADER ---------- */
   /* ---------- HEADER ---------- */
@@ -18,7 +21,7 @@
     display: none;
   }
   header .div-rg {
-    width: 45%;
+    width: 435px;
     display: flex;
     justify-content: space-between;
   }
@@ -26,7 +29,15 @@
     width: 55%;
     display: flex;
     justify-content: space-between;
+    gap: 15px;
     align-items: center;
+  }
+  header .div-rg nav > div {
+    display: flex;
+    align-items: center;
+  }
+  header i {
+    padding: 0;
   }
 
   /* ---------- MAIN ---------- */

@@ -2,6 +2,7 @@ const serverUrl = "https://site--tripadvisor-backend--r6xgg7xm7vcz.code.run";
 // const serverUrl = "http://localhost:3000";
 
 document.addEventListener("DOMContentLoaded", () => {
+  console.log("DOM loaded");
   // Display modal
   document.querySelector("#connection-button").addEventListener("click", () => {
     console.log("Connexion");

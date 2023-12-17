@@ -63,14 +63,12 @@ header .col-lf {
   justify-content: space-between;
   align-items: center;
 }
-header .div-rg .nav-rg div:not(:nth-child(2)) {
-  padding: 8px 12px;
-}
 header .div-rg .nav-rg a {
   color: black;
   text-decoration: none;
 }
 header button {
+  width: 150px;
   padding: 10px;
   background-color: #333333;
   font-family: TS-Reg, sans-serif;
