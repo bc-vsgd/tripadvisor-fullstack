@@ -1,4 +1,4 @@
-# First fullstack project: Tripadvisor
+# First fullstack project: Tripadvisor (frontend part)
 
 Exercise made during fullstack developper bootcamp training provided by [Le Reacteur](https://www.lereacteur.io/).
 
@@ -22,6 +22,4 @@ Frontend deployed with [Netlify](https://www.netlify.com/), backend with [Northf
 
 ### Backend
 
-**Send me an e-mail with [Mailgun](https://www.mailgun.com/?gclid=CjwKCAiAvoqsBhB9EiwA9XTWGT0MPXG8IPZH5kbTH1FudQ3tIVnOZMosZZsJ5Et9CzQ2T2dTrmbyYhoCNjAQAvD_BwE) !**  
- Click on the top right button 'Connectez-vous', fill in the form and submit it: you will send me an e-mail !  
- _I am currently facing a problem with Yahoo and Live adresses, trying to fix it. While waiting for the solution, please use Gmail adresses._
+Watch the [backend repository](https://github.com/bc-vsgd/tripadvisor-fullstack-back).
