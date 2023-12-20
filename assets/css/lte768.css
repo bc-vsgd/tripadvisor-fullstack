@@ -120,12 +120,12 @@
     margin-left: -45vw;
     font-size: 14px;
     bottom: 15px;
-    padding: 5px 10px 5px 10px;
-  }
-  .banner img {
-    width: 30px;
+    padding: 5px 10px;
   }
   .banner p {
     line-height: 17px;
+  }
+  .banner img {
+    width: 25px;
   }
 }

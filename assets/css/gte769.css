@@ -43,12 +43,13 @@
   header .div-rg nav {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
     align-items: center;
+  }
+  header .nav-rg div {
+    padding: 10px;
   }
   header .div-rg nav i {
     font-size: 22px;
-    padding: 5px;
   }
 
   /* ---------- MAIN ---------- */
@@ -162,7 +163,7 @@
     padding: 10px 20px;
   }
   .banner img {
-    width: 40px;
+    width: 30px;
   }
   .banner p {
     font-size: 16px;

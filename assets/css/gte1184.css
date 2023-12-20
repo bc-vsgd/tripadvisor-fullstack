@@ -56,11 +56,9 @@
   }
   .sub-section .div-1 {
     max-width: 280px;
-    /* border: 1px solid black; */
   }
   .sub-section .div-2 {
     max-width: 840px;
-    /* border: 1px solid blue; */
     overflow: scroll;
   }
   .thumbnail {
@@ -72,7 +70,7 @@
 
   .banner {
     width: 1134px;
-    margin-left: -562px;
+    margin-left: -567px;
     padding: 10px 30px;
   }
 }

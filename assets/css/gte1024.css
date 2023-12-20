@@ -21,20 +21,20 @@
     display: none;
   }
   header .div-rg {
-    width: 435px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
   }
   header .div-rg nav {
-    width: 55%;
     display: flex;
     justify-content: space-between;
-    gap: 15px;
     align-items: center;
   }
   header .div-rg nav > div {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 5px;
   }
   header i {
     padding: 0;

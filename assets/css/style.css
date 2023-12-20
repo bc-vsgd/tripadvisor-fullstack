@@ -15,7 +15,6 @@
 
 body {
   font-family: TS-Reg, sans-serif;
-  /* font-family: Arial, Helvetica, sans-serif; */
   position: relative;
 }
 
@@ -63,35 +62,37 @@ header .col-lf {
   justify-content: space-between;
   align-items: center;
 }
-header .div-rg .nav-rg a {
-  color: black;
-  text-decoration: none;
-}
 header button {
-  width: 150px;
-  padding: 10px;
-  background-color: #333333;
+  min-width: 150px;
+  padding: 12px;
+  padding-left: 15px;
+  background-color: #000;
   font-family: TS-Reg, sans-serif;
   font-size: 16px;
   color: white;
+  text-align: center;
   border: none;
-  border-radius: 20px;
+  border-radius: 24px;
 }
 
 /* HEADER HOVER */
-
-header .div-rg nav div:not(:nth-child(2)):hover {
+header .icon-menu_bars:hover {
+  cursor: pointer;
+}
+header img:hover {
+  cursor: pointer;
+}
+header .icon-search:hover {
+  cursor: pointer;
+}
+header .div-rg nav div:hover {
   cursor: pointer;
   background-color: #f2f2f2;
   border-radius: 20px;
 }
-header .div-rg a:hover {
-  text-decoration: underline;
-  opacity: 0.8;
-}
 header .div-rg button:hover {
   cursor: pointer;
-  opacity: 0.8;
+  background-color: #333333;
 }
 
 /* ---------- MAIN ---------- */
@@ -124,6 +125,13 @@ header .div-rg button:hover {
   color: #333333;
 }
 
+/* ----- FIRST DIV NAV: HOVER ----- */
+.first-div-nav div:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
 /* ----- FIRST DIV IMG ----- */
 
 .first-div .div-pics {
@@ -140,13 +148,24 @@ header .div-rg button:hover {
   font-family: TS-Reg, sans-serif;
   font-size: 12px;
   color: white;
-  background-color: #333333;
+  background-color: black;
   padding: 5px 8px;
   border: none;
   border-radius: 20px;
   position: absolute;
   bottom: 15px;
   left: 15px;
+}
+
+/* ----- FIRST DIV IMG: HOVER ----- */
+
+.first-div .div-img img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.first-div .div-img button:hover {
+  cursor: pointer;
+  background-color: #333333;
 }
 
 /* ----- FIRST SECTION ----- */
@@ -228,6 +247,14 @@ header .div-rg button:hover {
   font-size: 14px;
   line-height: 17px;
   color: #333333;
+}
+
+/* ----- SECTION: HOVER ----- */
+.thumbnail:hover {
+  cursor: pointer;
+}
+.thumbnail-img img:first-child:hover {
+  opacity: 0.8;
 }
 
 /* ---------- FOOTER ---------- */
@@ -338,16 +365,18 @@ footer a {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
   align-items: center;
+  gap: 5px;
 }
 .banner p {
-  /* border: 1px dotted blue; */
-  width: auto;
   text-align: center;
 }
 .banner a {
   color: #333333;
   text-decoration: none;
   font-family: TS-Med, sans-serif;
+}
+.banner img {
+  border-radius: 50%;
+  margin-top: 5px;
 }
